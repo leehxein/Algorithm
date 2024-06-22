@@ -1,10 +1,10 @@
 def solution(rsp):
-    s = ''
+    answer = ''
     for i in rsp:
         if i == '2':
-            s += '0'
+            answer += '0'
         elif i == '0':
-            s += '5'
+            answer += '5'
         elif i == '5':
-            s += '2'
-    return s
+            answer += '2'
+    return answer
