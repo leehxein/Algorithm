@@ -1,8 +1,7 @@
 def solution(n):
-    pizza_cnt = 1
-    while True:
-        if 7 * pizza_cnt >= n:
-            break
-        else:
-            pizza_cnt += 1
-    return pizza_cnt
+    if n % 7 != 0:
+        answer = (n // 7) + 1
+    elif n % 7 == 0:
+        answer = n // 7
+    
+    return answer 
