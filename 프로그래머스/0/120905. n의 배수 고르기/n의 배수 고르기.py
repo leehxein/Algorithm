@@ -4,5 +4,5 @@ def solution(n, numlist):
         if i % n == 0:
             answer.append(i)
         else:
-            pass
+            continue
     return answer
